@@ -1,23 +1,14 @@
-main {
-
+body {
+    background-color: #ECECEC;
+    color: #262626;
 }
 
 .navbar {
     margin-bottom: 0px;
 }
 
-/* .jumbotron { */
-/*     background-image: url("img/top.jpg"); */
-/*     background-color: #17234E; */
-/*     margin-bottom: 0;`enter code here` */
-/*     min-height: 50%; */
-/*     background-repeat: no-repeat; */
-/*     background-position: center; */
-/*     -webkit-background-size: cover; */
-/*     background-size: cover; */
-/* } */
-
 .jumbotron {
+    height: 480px;
     background: url(../img/top.jpg) center no-repeat;
     background-size: cover;
     color: #FFFFFF;
@@ -26,5 +17,22 @@ main {
     black -1px 1px 0, black 1px -1px 0,
     black 0px 1px 0, black  0-1px 0,
     black -1px 0 0, black 1px 0 0;
+}
+
+img.img-top {
+    max-width: 200px;
+    height: auto;
+}
+
+.topic-a {
+    background-color: #A6E1FF;
+    padding: 25px;
+    margin: 10px 0;
+}
+
+.topic-b {
+    background-color: #FDD0AC;
+    padding: 25px;
+    margin: 10px 0;
 }
 
