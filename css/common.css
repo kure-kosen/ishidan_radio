@@ -1,6 +1,7 @@
 body {
     background-color: #ECECEC;
     color: #262626;
+    font-family: "Rounded Mplus 1c";
 }
 
 p {
@@ -39,6 +40,10 @@ li.active {
     black -1px 0 0, black 1px 0 0;
 }
 
+p.jumbotron-p {
+    font-weight: 500;
+}
+
 img.img-top {
     max-width: 200px;
     height: auto;
@@ -50,7 +55,12 @@ img.img-top {
 }
 
 .second-column {
+    padding: 30px 0;
     background-color: #FB9B00;
+}
+
+img.img-second {
+    margin-bottom: 56px;
 }
 
 .topic-a {
@@ -69,4 +79,15 @@ img.img-top {
 
     padding: 25px;
     margin: 10px 0;
+}
+
+footer {
+    background-color: #262626;
+    color: #ECECEC;
+}
+
+img.fotter-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
 }
