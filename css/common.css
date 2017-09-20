@@ -3,15 +3,35 @@ body {
     color: #262626;
 }
 
+p {
+    line-height: 1.65em;
+    text-align: justify;
+}
+
 .navbar {
     margin-bottom: 0px;
+    background-color: #FFDF00;
+    border-style: none;
+}
+
+button.navbar-toggle {
+    border-style: none;
+}
+
+a.navbar {
+    color: red;
+}
+
+li.active {
+    background-color: red;
 }
 
 .jumbotron {
     height: 480px;
+    margin-bottom: 0;
     background: url(../img/top.jpg) center no-repeat;
     background-size: cover;
-    color: #FFFFFF;
+    color: #FFDF00;
     text-shadow: 
     black 1px 1px 0, black -1px -1px 0,
     black -1px 1px 0, black 1px -1px 0,
@@ -24,15 +44,25 @@ img.img-top {
     height: auto;
 }
 
+.first-column {
+    padding: 30px 0;
+    background-color: #FFDF00;
+}
+
 .topic-a {
-    background-color: #A6E1FF;
+
     padding: 25px;
     margin: 10px 0;
 }
 
 .topic-b {
-    background-color: #FDD0AC;
+
     padding: 25px;
     margin: 10px 0;
 }
 
+.topic-c {
+
+    padding: 25px;
+    margin: 10px 0;
+}
